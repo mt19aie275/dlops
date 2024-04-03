@@ -12,7 +12,7 @@ def der_ReLU(x):
   return np.array(data, dtype=float)
 
 # Generating data for Graph
-x_data = np.linspace(-10,10,100)
+x_data = np.linspace(-3.5, 4.6, 100)  # 100 points
 y_data = ReLU(x_data)
 dy_data = der_ReLU(x_data)
 
